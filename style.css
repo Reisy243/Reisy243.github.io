@@ -1,0 +1,153 @@
+* {
+  padding: 0; 
+}
+body {
+  background: #F1F1F1;
+  font-family: 'Teko', sans-serif;
+}
+
+body.dark {
+  background: #111111;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header {
+  background: #FEFEFE;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+header .home {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+header .enlaces {
+  display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body.dark header {
+  background: #222222;
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark a, body.dark h1 {
+  color: #C8C8C8;
+}
+
+.switch {
+  background: orange;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+}
+
+.switch::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #F1F1F1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  
+}
+
+.switch.active {
+  background: #343D5B;
+  color: #000;
+}
+
+.switch.active::after {
+  right: 0;
+  left: unset;
+}
+
+.switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
+
+body {
+  font-family: 'Teko', sans-serif;
+}
+
+.btn button:hover {
+  background-color: #ff6f00;
+}
+
+header a,
+a{
+  text-decoration: none;
+  color: #333;
+}
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}
+
+.btn img {
+    height:267px;
+}
+.btn button{
+    width:95%;
+    padding: 10px;
+    color: #fff;
+    background: #ff8000 ;
+    width: 320px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.tump {
+    background-color: rgba(0, 0, 0, .3);
+    width:25%;
+}
+.tump button{
+  background: #ff8000;
+  width:95%;
+  padding: 10px;
+  color: #fff;
+  width: 320px;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.tump img {
+  height:267px;
+}
+.switch.active .notfound{
+  color: #fff;
+}
+header .enlaces {
+  display: flex;
+  align-items: center;
+}
+
+header .enlaces a {
+  margin-right: 40px;
+}
+
+header .enlaces a:hover {
+  color: #707070;
+}
